@@ -1,0 +1,141 @@
+.fa,
+.fas,
+.far,
+.fal,
+.fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa-cat:before {
+    content: '\f6be';
+}
+
+.fa-cog:before {
+    content: '\f013';
+}
+
+.fa-ban:before {
+    content: '\f05e';
+}
+
+.fa-desktop:before {
+    content: '\f108';
+}
+
+.fa-chalkboard-teacher:before {
+    content: '\f51c';
+}
+
+.fa-rocket:before {
+    content: '\f135';
+}
+
+.fa-code:before {
+    content: '\f121';
+}
+
+.fa-folders:before {
+    content: '\f660';
+}
+
+.fa-comments-alt:before {
+    content: '\f4b6';
+}
+
+.fa-user-headset:before {
+    content: '\f82d';
+}
+
+.fa-tasks:before {
+    content: '\f0ae';
+}
+
+.fa-clock:before {
+    content: '\f017';
+}
+
+.fa-camera-retro:before {
+    content: '\f083';
+}
+
+.fa-users:before {
+    content: '\f0c0';
+}
+
+.fa-globe:before {
+    content: '\f0ac';
+}
+
+.fa-alarm-clock:before {
+    content: '\f34e';
+}
+
+.fa-trophy-alt:before {
+    content: '\f2eb';
+}
+
+.fa-asterisk:before {
+    content: '\f069';
+}
+
+.fa-cubes:before {
+    content: '\f1b3';
+}
+
+.fa-briefcase:before {
+    content: '\f0b1';
+}
+
+.fa-apple:before {
+    content: '\f179';
+}
+
+.fa-android:before {
+    content: '\f17b';
+}
+
+.fa-calendar:before {
+    content: '\f133';
+}
+
+.fa-eye:before {
+    content: '\f06e';
+}
+
+.fa-phone:before {
+    content: '\f095';
+}
+
+.fa-envelope:before {
+    content: '\f0e0';
+}
+
+.fa-facebook:before {
+    content: '\f09a';
+}
+
+.fa-twitter:before {
+    content: '\f099';
+}
+
+.fa-google-plus-g:before {
+    content: '\f0d5';
+}
+
+.fa-pinterest:before {
+    content: '\f0d2';
+}
+
+.fa-dribbble:before {
+    content: '\f17d';
+}
+
+.fa-copyright:before {
+    content: '\f1f9';
+}

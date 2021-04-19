@@ -1,0 +1,37 @@
+.service-card {
+    padding: 0 1.3rem;
+    margin-bottom: 40px;
+}
+
+.service-card .heading {
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.service-card i {
+    font-size: 3rem;
+}
+
+/**** small device layout ****/
+@media only screen and (min-width: 576px) {
+    .service-card {
+        padding: 0 0.5rem;
+    }
+}
+
+/**** medium device ****/
+@media only screen and (min-width: 768px) {
+    .service-details {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/**** large device ****/
+@media only screen and (min-width: 992px) {
+    .service-card {
+        margin-bottom: 60px;
+    }
+}

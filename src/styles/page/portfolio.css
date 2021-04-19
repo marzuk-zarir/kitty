@@ -1,0 +1,63 @@
+/**** portfolio button ****/
+.portfolio-btn-group {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.p-btn {
+    background: transparent;
+    font-size: 1rem;
+    padding: 8px 15px;
+}
+
+.p-btn.active {
+    background: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    transition: background 1s, color 0.1s;
+}
+
+/**** portfolio grid ****/
+.portfolio-grid .row div {
+    overflow: hidden;
+}
+
+.portfolio-grid .row img {
+    display: none;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.portfolio-grid .row img:hover {
+    transform: scale(1.03);
+}
+
+@keyframes imgAnimateGrowingAll {
+    from {
+        transform: scale(0.5);
+        opacity: 0.4;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes imgAnimateGrowing {
+    from {
+        transform: scale(0.5);
+        opacity: 0.4;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/**** small device layout ****/
+@media only screen and (min-width: 576px) {
+    .portfolio-btn-group {
+        width: 60%;
+        padding: 0.8rem 0;
+    }
+}

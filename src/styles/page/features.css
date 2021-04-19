@@ -1,0 +1,22 @@
+.feature-section-img {
+    background: url('../../assets/banner.jpg') no-repeat center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+
+/**** small screen layout ****/
+@media only screen and (min-width: 575px) {
+    .feature-section-img {
+        height: 420px;
+    }
+}
+
+/**** medium screen layout ****/
+@media only screen and (min-width: 767px) {
+    .feature-section-img {
+        height: 940px;
+        /* background-position-x-start: 100px; */
+    }
+}

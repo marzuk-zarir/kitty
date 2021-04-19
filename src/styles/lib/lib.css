@@ -1,0 +1,67 @@
+/**** button ****/
+.btn {
+    height: 2.6rem;
+    min-width: 140px;
+    text-align: center;
+    font-weight: 500;
+    padding: 0 25px;
+    font-size: 1rem;
+    border-radius: 70px;
+    transition: 0.5s;
+}
+
+.btn-sm {
+    height: 2.5rem;
+    min-width: 140px;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--text-color);
+}
+
+.btn-primary:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.6);
+}
+
+.btn-secondary {
+    background: var(--text-color);
+    color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+    background: var(--primary-color);
+    color: var(--text-color);
+    box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.6);
+}
+
+/**** section details text container ****/
+.text-container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* small device layout */
+@media only screen and (min-width: 576px) {
+    .btn {
+        min-width: 170px;
+        height: 3rem;
+    }
+
+    .text-container {
+        width: 85%;
+    }
+}
+/* medium device layout */
+@media only screen and (min-width: 768px) {
+    .text-container {
+        width: 75%;
+    }
+}
+/* large device layout */
+@media only screen and (min-width: 992px) {
+    .text-container {
+        width: 70%;
+    }
+}

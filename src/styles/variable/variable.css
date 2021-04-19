@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #0984e3;
+    --primary-icon-bg-color: #2c3e50;
+    --text-color: #ffffff;
+    --secondary-bg-color: #f2f4f8;
+    --icon-color: #212529;
+    --primary-icon-size: 2.5rem;
+    --secondary-icon-size: 1.875rem;
+    --primary-heading: 1.5rem;
+    --pricing-heading-background: #f9f9f9;
+    --footer-bg-color: #222222;
+    --footer-text-color: rgba(255, 255, 255, 0.7);
+}

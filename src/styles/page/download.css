@@ -1,0 +1,13 @@
+/**** download section ****/
+.download-section {
+    background: url(../../assets/mobile-app.jpg) no-repeat;
+    background-size: cover;
+}
+
+.download-btn-grp i {
+    font-size: 1.1rem;
+}
+
+.download-btn-grp button {
+    width: 190px;
+}

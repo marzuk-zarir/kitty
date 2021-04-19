@@ -1,0 +1,68 @@
+/**** subscribe ****/
+.section-con {
+    height: 460px;
+    position: relative;
+    color: var(--text-color);
+}
+
+.subscribe-section {
+    background: url(../../assets/subscribe.jpg) no-repeat;
+    background-size: cover;
+}
+
+.section-overlay {
+    width: 100%;
+    height: 460px;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.section-text h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.section-text p {
+    margin: 1rem 0;
+}
+
+.subscribe-input input[type='email'] {
+    width: 100%;
+    padding: 0.8rem 2rem;
+    border-radius: 70px;
+    transition: box-shadow 0.5s;
+}
+
+.subscribe-input input[type='email'],
+.subscribe-input input[type='email']::placeholder {
+    font-size: 1rem;
+}
+
+.subscribe-input input[type='email']:focus {
+    box-shadow: inset 0 -3px 3px var(--primary-color);
+}
+
+.subscribe-input input[type='submit'] {
+    width: 100%;
+}
+
+/**** small device ****/
+@media only screen and (min-width: 576px) {
+    .subscribe-input input[type='email'] {
+        padding: 1rem 2rem;
+    }
+}
+
+/**** medium device layout ****/
+@media only screen and (min-width: 768px) {
+    .section-overlay {
+        padding: 3rem;
+    }
+    .section-text h3 {
+        font-size: 1.9rem;
+    }
+}

@@ -1,0 +1,36 @@
+#award {
+    background: #000000;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.award-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.award {
+    margin: 2rem 0;
+}
+
+.award i {
+    font-size: 3rem;
+}
+
+.award h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+
+@media only screen and (min-width: 992px) {
+    .award-container {
+        width: 80%;
+    }
+
+    .award i {
+        font-size: 3.5rem;
+    }
+}
