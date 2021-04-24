@@ -3,13 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-let target = 'web';
-let minimize = false;
-
-if (process.env.NODE_ENV === 'production') {
-    target = 'browerslist';
-    minimize = true;
-}
 
 const config = {
     entry: {
@@ -18,14 +11,14 @@ const config = {
     output: {
         path: path.resolve(__dirname, 'dist'),
     },
-    target: target,
+    target: 'browserslist',
     devServer: {
         contentBase: path.join(__dirname, './dist'),
         port: 3000,
     },
     devtool: 'source-map',
     optimization: {
-        minimize: minimize,
+        minimize: true,
         minimizer: ['...', new CssMinimizerPlugin()],
     },
     module: {
